@@ -1,0 +1,23 @@
+{
+  "name": "tsmm",
+  "version": "1.0.0",
+  "description": "TypeScript module manager",
+  "main": "bin/tmm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Schlacher",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "clone": "^1.0.2",
+    "minimist": "^1.2.0",
+    "readline-sync": "^1.2.22",
+    "shelljs": "^0.5.3",
+    "underscore": "^1.8.3",
+    "yargs": "^3.31.0"
+  },
+  "bin": {
+    "tsmm": "bin/tsmm.js"
+  }
+}
